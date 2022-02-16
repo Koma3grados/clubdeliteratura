@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.navbar {
+  border: 1px solid rgb(255, 255, 255);
+  width: 100%;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.logo {
+  width: 30%;
+}
+.login {
+  width: 30%;
+  display: flex;
+}
+.login .inputs {
+  display: flex;
+  width: 80%;
+}
+.login input {
+  width: 50%;
+  height: 30px;
+  padding: 0.1rem;
+  margin: 0 1rem;
+  border-radius: 10px;
+}
+.acceso {
+  width: 20%;
+  display: flex;
+}
+.acceso button {
+  width: 100%;
+  border-radius: 10px;
+}
+.fondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+}
+.fondo img {
+  width: 100%;
+  height: 100%;
+}
